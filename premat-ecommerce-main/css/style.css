@@ -1227,3 +1227,29 @@ p {
 .demo-header-cont a:hover {
     background-color: #e03b0d
 }
+
+/* wa area */
+.whatsapp-float{
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 25px;
+    right: 25px;
+    background: linear-gradient(135deg, #0F6A38, #6EE7A8);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover{
+    transform: scale(1.1);
+}
+
+.whatsapp-float img{
+    width: 38px;
+    height: 38px;
+}
